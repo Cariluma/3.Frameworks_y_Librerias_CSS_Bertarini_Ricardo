@@ -1,0 +1,36 @@
+body{
+  background-color:gray;
+}
+
+.logo{
+  width: 100px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+
+.col-lg-6{
+  height: 110px;
+}
+
+.list-inline{
+  text-align: right;
+  margin-right: 70px;
+}
+
+.icono{
+    margin-top: 70px;
+}
+
+a[href="#"]{
+  color: black;
+  text-align: center;
+}
+
+img[src="imagenes/soda_estereo.png"]{
+  margin-top: 70px;
+}
+
+img[src="imagenes/Fito_Paez.png"]{
+  margin-top: 80px;
+}
