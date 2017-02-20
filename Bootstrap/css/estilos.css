@@ -13,6 +13,14 @@ body{
   height: 110px;
 }
 
+.container{
+  border-radius: 10px;
+}
+
+div[class="row"]{
+  border-radius: 10px;
+}
+
 .list-inline{
   text-align: right;
   margin-right: 70px;
@@ -22,9 +30,28 @@ body{
     margin-top: 70px;
 }
 
+nav[class="col-lg-12"]{
+  border-bottom: 3px;
+}
+
+ul[class="list-unstyled list-inline"]{
+background-color: yellow;
+text-align: center;
+}
+
 a[href="#"]{
+  border-radius: 10px;
   color: black;
   text-align: center;
+}
+
+li:hover[class="col-lg-2 col-md-2 col-sm-6 col-xs-12"]{
+background-color:white;
+}
+
+li[class="col-lg-2 col-md-2 col-sm-6 col-xs-12"]{
+background-color:#009688;
+
 }
 
 img[src="imagenes/soda_estereo.png"]{
@@ -33,4 +60,25 @@ img[src="imagenes/soda_estereo.png"]{
 
 img[src="imagenes/Fito_Paez.png"]{
   margin-top: 80px;
+}
+
+form[role="form"]{
+  margin-top: 70px;
+}
+
+li[class="temas"]{
+  margin-top: 5px;
+  background-color:#009688;
+border: 1px solid;
+height: 30px;
+border-radius: 10px;
+}
+
+li:hover[class="temas"]{
+background-color:white;
+}
+
+p[class="lista-busqueda"]{
+margin-top: 5px;
+margin-left: 10px;
 }
